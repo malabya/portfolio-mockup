@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFonts from "next/font/local";
 import "./globals.css";
+import Header from "@/components/Header";
 
 const metroFont = localFonts({
   src: "../../public/fonts/metropolis/Metropolis-Bold.woff2",
@@ -31,6 +32,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
   return (
     <html lang="en" className={`${metroFont.variable} ${workFont.variable}`}>
       <body className="text-black antialiased">
+        <Header></Header>
         {children}
       </body>
     </html>
