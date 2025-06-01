@@ -2,6 +2,7 @@ import DownloadIcon from "@/assets/download.svg"
 import Cta from "./Cta";
 import TwoColumnLayout from "./TwoColumnLayout";
 import Heading from "./Heading";
+import Image from "next/image";
 
 export default function HomepageBanner() {
   return (
@@ -24,13 +25,28 @@ export default function HomepageBanner() {
             </p>
             <div className="flex items-center gap-8">
               <div className="w-full">
-                <img src="/images/logo1.svg" alt="Specbee Logo" />
+                <Image
+                  src='/images/logo1.svg'
+                  alt="Specbee Logo"
+                  width={170}
+                  height={30}
+                />
               </div>
               <div className="w-full">
-                <img src="/images/logo2.svg" alt="Specbee Logo" />
+                <Image
+                  src='/images/logo2.svg'
+                  alt="Valuebound Logo"
+                  width={170}
+                  height={30}
+                />
               </div>
               <div className="w-full">
-                <img src="/images/logo3.svg" alt="Specbee Logo" />
+                <Image
+                  src='/images/logo3.svg'
+                  alt="Axl Logo"
+                  width={170}
+                  height={30}
+                />
               </div>
             </div>
           </div>
