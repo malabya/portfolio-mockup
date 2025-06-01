@@ -1,5 +1,7 @@
+import About from "@/components/About";
 import Container from "@/components/Container";
 import HomepageBanner from "@/components/HomepageBanner";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -7,8 +9,11 @@ export default function Home() {
       <Container bgColor="bg-white" spacingBottomClass="pb-20 md:pb-40">
         <HomepageBanner />
       </Container>
+      <Container bgColor="bg-gray-100" spacingTopClass="pt-10 md:pt-20" spacingBottomClass="pb-20 md:pb-40">
+        <About/>
+      </Container>
       <Container bgColor="bg-white" spacingTopClass="pt-10 md:pt-20" spacingBottomClass="pb-20 md:pb-40">
-        Content goes here
+        <Services />
       </Container>
     </main>
   );

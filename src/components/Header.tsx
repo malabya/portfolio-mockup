@@ -9,7 +9,6 @@ export default function Header() {
         <div className="site-branding">
           <a href="/" className="site-branding__logo flex items-center gap-2">
             <Logo width={40} height={40} className="site-branding__logo" />
-            <span className="font-metro font-bold text-4xl self-center whitespace-nowrap hidden md:block">Malabya</span>
           </a>
         </div>
         <div className='site-cta flex items-center gap-2 md:order-2'>
