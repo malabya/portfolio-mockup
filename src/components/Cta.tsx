@@ -15,7 +15,7 @@ export default function Cta({ href, children, variant = 'primary', className }: 
   const variantStyles = {
     primary: 'bg-primary px-4 py-2 text-white border-primary hover:bg-white hover:text-primary',
     secondary: 'bg-white px-4 py-2 text-primary border-primary hover:bg-primary hover:text-white',
-    tertiary: 'bg-white px-0 py-0 text-gray-500 border-0 hover:text-primary',
+    tertiary: 'bg-none px-0 py-0 text-gray-500 border-0 hover:text-primary',
   };
 
   return (

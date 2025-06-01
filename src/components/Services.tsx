@@ -22,7 +22,7 @@ export default function Services() {
         <ServiceCard heading="Upgrade & Migration" href="/development">
           Synergistically repurpose 2.0 customer service rather than multimedia based collaboration and.
         </ServiceCard>
-        <ServiceCard heading="Maintenance &" href="/development">
+        <ServiceCard heading="Maintenance & Support" href="/development">
           Synergistically repurpose 2.0 customer service rather than multimedia based collaboration and.
         </ServiceCard>
         <ServiceCard heading="Consulting" href="/development">
