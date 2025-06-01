@@ -4,7 +4,7 @@ import Cta from './Cta';
 
 export default function Header() {
   return (
-    <header className="site-header bg-white fixed top-0 start-0 w-full z-20 border-b border-gray-300">
+    <header className="site-header bg-white fixed top-0 start-0 w-full z-100 border-b border-gray-300">
       <div className="site-nav container max-w-6xl px-4 py-4 mx-auto flex items-center justify-between">
         <div className="site-branding">
           <a href="/" className="site-branding__logo flex items-center gap-2">
