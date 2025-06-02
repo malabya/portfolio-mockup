@@ -8,12 +8,7 @@ export default function Services() {
         Expert Web Solutions, Built for Performance
       </Heading>
       <p className="text-gray-700 max-w-3xl">
-        Comprehensive Drupal services including custom development, responsive
-        theming, version upgrades, and ongoing maintenance. Solutions are
-        tailored for performance, security, and scalability—ensuring smooth
-        migrations, reliable support, and future-ready architecture for digital
-        platforms of any size. Ideal for businesses seeking stability,
-        flexibility, and long-term value in their web infrastructure.
+        End-to-end web development services tailored for performance, security, and scalability. From CMS implementation to frontend theming and ongoing maintenance — solutions built to last and evolve.
       </p>
       <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8 border-t border-gray-200 pt-6 mt-6 sm:pt-12 md:mt-12">
         <ServiceCard heading="Development" href="/development">

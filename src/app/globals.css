@@ -4,12 +4,14 @@
   --background: #ffffff;
   --foreground: #171717;
   --primary: #000d82;
+  --dark-bg: #101828;
 }
 
 @theme inline {
   --font-metro: var(--font-metropolis);
   --font-work: var(--font-work-sans);
   --color-primary: var(--primary);
+  --color-dark: var(--dark-bg);
 }
 
 body {

@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Container from "@/components/Container";
 import HomepageBanner from "@/components/HomepageBanner";
+import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
 
 export default function Home() {
@@ -12,8 +13,11 @@ export default function Home() {
       <Container bgColor="bg-gray-100" spacingTopClass="pt-10 md:pt-20" spacingBottomClass="pb-10 md:pb-20">
         <About/>
       </Container>
-      <Container bgColor="bg-white" spacingTopClass="pt-10 md:pt-20" spacingBottomClass="pb-20 md:pb-40">
+      <Container bgColor="bg-white" spacingTopClass="pt-20 md:pt-40" spacingBottomClass="pb-20 md:pb-40">
         <Services />
+      </Container>
+      <Container bgColor="bg-white" spacingTopClass="pt-20 md:pt-40" spacingBottomClass="pb-20 md:pb-40" additionalClasses="border-t border-b border-gray-200">
+        <Portfolio />
       </Container>
     </main>
   );
