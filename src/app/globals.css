@@ -5,6 +5,7 @@
   --foreground: #171717;
   --primary: #000d82;
   --dark-bg: #101828;
+  --light-bg: #f8f9ff;
 }
 
 @theme inline {
@@ -12,6 +13,7 @@
   --font-work: var(--font-work-sans);
   --color-primary: var(--primary);
   --color-dark: var(--dark-bg);
+  --color-light: var(--light-bg);
 }
 
 body {

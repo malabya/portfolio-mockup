@@ -1,7 +1,6 @@
 import DownloadIcon from "@/assets/download.svg"
 import Cta from "./Cta";
 import TwoColumnLayout from "./TwoColumnLayout";
-import Heading from "./Heading";
 import Image from "next/image";
 
 export default function HomepageBanner() {
@@ -10,8 +9,12 @@ export default function HomepageBanner() {
       childrenLeftCol={
         <>
           <div className="text-sm text-gray-600 font-semibold mb-4">Hey There 👋 I am</div>
-          <Heading as="h1">Malabya</Heading>
-          <p className=" text-gray-600 mb-4">Acquia Certified Drupal Architect | 12+ Years in Drupal 6–10 | Community Contributor | Speaker | Co-Author | Tech Leader</p>
+          <div className="mb-4 text-3xl font-metro font-extrabold text-primary md:text-5xl lg:text-6xl">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+              Malabya
+            </span>
+          </div>
+          <h1 className=" text-gray-600 mb-4">Acquia Certified Drupal Architect | 12+ Years in Drupal 6–10 | Community Contributor | Speaker | Co-Author | Tech Leader</h1>
           <div className="flex flex-wrap gap-8 items-center mb-12">
             <Cta href="#" variant="primary">Learn More</Cta>
             <a href="#" className="font-bold text-gray-600 flex gap-2 items-center hover:text-primary">

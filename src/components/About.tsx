@@ -7,7 +7,7 @@ export default function About() {
     <TwoColumnLayout
       childrenLeftCol={
         <>
-          <Heading as="h2">Contributed. Certified. Committed to Quality.</Heading>
+          <Heading as="h2" heading="Contributed. Certified. Committed to Quality."></Heading>
           <p className="text-gray-500">Acquia-certified Drupal developer with 12+ years of experience.
             I build secure, scalable, and maintainable Drupal platforms — from
             backend APIs to frontend theming and DevOps workflows.</p>
@@ -15,7 +15,7 @@ export default function About() {
       }
       childrenRightCol={
         <>
-          <Heading as="h3">Connect with me</Heading>
+          <Heading as="h3" heading="Connect with me"></Heading>
           <p className="text-gray-500 mb-4">
             Let’s connect and grow your Drupal project together.
             Follow me on social media and Drupal.org to see my work, contributions, and latest updates.

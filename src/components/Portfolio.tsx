@@ -4,9 +4,7 @@ import ProjectCard from "./ProjectCard";
 export default function Portfolio() {
   return (
     <>
-      <Heading subheading="Featured Work">
-        Portfolio
-      </Heading>
+      <Heading as="h2" subheading="Selected Work" heading="Portfolio" />
       <p className="text-gray-700 max-w-3xl">
         A curated selection of projects highlighting technical depth and
         creative problem-solving. Each solution reflects a focus on performance,
@@ -18,14 +16,14 @@ export default function Portfolio() {
           description="Efficiently productivate customized human capital through resource maximizing materials. Compellingly negotiate."
           image_url="/images/project7.png"
           href="https://www.pfp-consortium.org/"
-          tags={['Drupal']}
+          tags={['Drupal 7.x']}
         />
         <ProjectCard
           name="Partnership of Peace Consortium"
           description="Efficiently productivate customized human capital through resource maximizing materials. Compellingly negotiate."
           image_url="/images/project1.png"
           href="https://www.pfp-consortium.org/"
-          tags={['Drupal']}
+          tags={['Drupal 10.x']}
         />
         <ProjectCard
           name="Department of Health, Wadsworth Center"
@@ -33,7 +31,7 @@ export default function Portfolio() {
           image_url="/images/project2.png"
           owner="Specbee"
           href="https://www.pfp-consortium.org/"
-          tags={['Drupal']}
+          tags={['Drupal 10.x']}
         />
         <ProjectCard
           name="Thomas"
@@ -41,7 +39,7 @@ export default function Portfolio() {
           image_url="/images/project3.png"
           owner="Specbee"
           href="https://www.pfp-consortium.org/"
-          tags={['Drupal']}
+          tags={['Drupal 9.x']}
         />
         <ProjectCard
           name="Centre for Professional Education"
@@ -49,7 +47,7 @@ export default function Portfolio() {
           image_url="/images/project5.png"
           owner="Specbee"
           href="https://www.pfp-consortium.org/"
-          tags={['Drupal']}
+          tags={['Drupal 10.x']}
         />
         <ProjectCard
           name="Curtiss Wright - Defense Solutions"
@@ -57,7 +55,7 @@ export default function Portfolio() {
           image_url="/images/project6.png"
           owner="Specbee"
           href="https://www.pfp-consortium.org/"
-          tags={['Drupal']}
+          tags={['Drupal 10.x']}
         />
       </div>
 

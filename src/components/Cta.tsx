@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import clsx from 'clsx';
+import Arrow from '@/assets/arrow.svg';
 
 type CtaProps = {
   href: string;
@@ -14,7 +15,7 @@ export default function Cta({ href, children, variant = 'primary', className }: 
   const baseStyles = 'inline-flex items-center font-bold rounded-3xl border transition-colors duration-200';
   const variantStyles = {
     primary: 'bg-primary px-4 py-2 text-white border-primary hover:bg-white hover:text-primary',
-    secondary: 'bg-white px-4 py-2 text-primary border-primary hover:bg-primary hover:text-white',
+    secondary: 'bg-white px-4 py-2 text-primary border-primary hover:bg-primary hover:text-white hover:border-white',
     tertiary: 'bg-none px-0 py-0 text-gray-500 border-0 hover:text-primary',
     wrapper: 'bg-transparent px-0 py-0 text-inherit border-0'
   };
@@ -26,21 +27,7 @@ export default function Cta({ href, children, variant = 'primary', className }: 
     >
       <span>{children}</span>
       { variant !== 'wrapper' && (
-        <svg
-          className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
-          aria-hidden="true"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 14 10"
-        >
-          <path
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M1 5h12M9 1l4 4-4 4"
-          />
-        </svg>
+        <Arrow width={14} className="ml-2"/>
       ) }
     </Link>
 
