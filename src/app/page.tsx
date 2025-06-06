@@ -8,7 +8,7 @@ import Services from "@/components/Services";
 
 export default function Home() {
   return (
-    <main className="site-content relative -z-0 pt-25 sm:pt-40">
+    <main className="site-content relative -z-0 pt-30 md:pt-40 lg:pt-50">
       <Container bgColor="bg-white" bgImageUrl="/images/hero-pattern.svg" spacingBottomClass="pb-20 md:pb-40">
         <HomepageBanner />
       </Container>

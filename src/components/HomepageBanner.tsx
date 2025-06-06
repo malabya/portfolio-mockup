@@ -60,8 +60,8 @@ export default function HomepageBanner() {
           <Image
             src="/images/headshot.jpg"
             alt="headshot"
-            width={448}
-            height={448}
+            width={1024}
+            height={1024}
             className="rounded-4xl p-3"
           />
         </div>
