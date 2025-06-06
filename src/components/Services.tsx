@@ -1,4 +1,3 @@
-import BannerCTA from "./BannerCTA";
 import Heading from "./Heading";
 import ServiceCard from "./ServiceCard";
 

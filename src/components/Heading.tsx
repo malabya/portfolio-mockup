@@ -6,8 +6,9 @@ type HeadingProps = {
   as?: "h1" | "h2" | "h3" | "h4" | "h5";
   subheading?: string;
   className?: string;
-  heading: string;
+  heading?: string;
   theme?: "light" | "dark";
+  children?: React.ReactNode;
 };
 
 const headingStyles: Record<NonNullable<HeadingProps["as"]>, string> = {
@@ -18,7 +19,7 @@ const headingStyles: Record<NonNullable<HeadingProps["as"]>, string> = {
   h5: "text-lg md:text-xl",
 };
 
-export default function Heading({ as: Tag = "h2", subheading, className, heading, theme = 'light' }: HeadingProps) {
+export default function Heading({ as: Tag = "h2", subheading, className, heading, theme = 'light', children }: HeadingProps) {
   const baseClasses = 'font-bold font-metro mb-2 md:mb-4';
   const themeClasses = theme === 'light'  ? 'text-primary' : 'text-white';
 
@@ -32,6 +33,7 @@ export default function Heading({ as: Tag = "h2", subheading, className, heading
 
       <Tag className={clsx(headingStyles[Tag], baseClasses, themeClasses, className)}>
         {heading}
+        {children}
       </Tag>
     </>
   );

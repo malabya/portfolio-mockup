@@ -57,7 +57,13 @@ export default function HomepageBanner() {
       }
       childrenRightCol={
         <div className="relative after:content-[''] after:absolute after:w-full after:h-full after:border-2 after:border-primary after:left-0 after:bottom-0 lg:after:left-10 lg:after:bottom-10 after:rounded-4xl after:-z-10 before:content-[''] before:absolute before:w-[100] before:h-[100] before:-bottom-4 before:-left-4 before:-z-10 before:bg-[url('/images/dots.svg')] before:bg-no-repeat before:bg-center">
-          <img src="/images/headshot.jpg" alt="headshot" className="rounded-4xl p-3" />
+          <Image
+            src="/images/headshot.jpg"
+            alt="headshot"
+            width={448}
+            height={448}
+            className="rounded-4xl p-3"
+          />
         </div>
       }
     />
