@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en" className={`${metroFont.variable} ${workFont.variable}`}>
-      <body className="text-black antialiased">
+      <body className="text-lg/8 text-gray-950 antialiased">
         <Header />
         {children}
         <Footer/>

@@ -5,7 +5,7 @@ import IconLink from "./IconLink";
 export default function Footer() {
   return (
     <footer className="site-footer bg-dark py-8 md:py-16">
-      <div className="container max-w-6xl px-6 mx-auto flex items-center justify-between">
+      <div className="container max-w-6xl px-6 mx-auto flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
         <div className="flex items-center gap-4">
           <Link href="/" className='site-branding__logo'>
             <Logo width={40} height={40} className="site-branding__logo" />
@@ -22,7 +22,7 @@ export default function Footer() {
           <IconLink href="#" icon="/images/x.svg" alt="X" />
         </div>
       </div>
-      <div className="container max-w-6xl mx-auto px-6 mt-6 md:mt-12">
+      <div className="container max-w-6xl mx-auto px-6 mt-6 pt-6 border-t border-white md:border-none">
         <div className="text-sm text-gray-300">Powered by <Link href='drupal.org' target="_blank">Drupal</Link>. &copy; 2025 imalabya.dev</div>
       </div>
     </footer>
