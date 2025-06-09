@@ -12,7 +12,7 @@ export default function Expertise() {
         Tailwind CSS, and LAMP to build fast, secure, and scalable digital
         solutions tailored to evolving business needs.
       </p>
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 items-center  gap-8 pt-6 mt-6 sm:pt-12 md:mt-12">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 items-center gap-8 pt-6 mt-6 sm:pt-12 md:mt-12">
         <ExpertiseCard icon='/images/drupal-logo.svg' heading='Drupal' url="https://drupal.org" />
         <ExpertiseCard icon='/images/php-logo.svg' heading='PHP' url="https://drupal.org" />
         <ExpertiseCard icon='/images/mysql-logo.svg' heading='MySQL' url="https://drupal.org" />
