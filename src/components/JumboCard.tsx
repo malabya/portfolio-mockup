@@ -21,8 +21,8 @@ export default function JumboCard({ heading, subheading, description, items, ima
                 {description}
               </p>
               <dl className="mt-10 max-w-xl space-y-8 lg:max-w-none">
-                {items.map((item) => (
-                  <div className="relative pl-9">
+                {items.map((item, index) => (
+                  <div key={index} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
                       <span aria-hidden="true" className="absolute top-1 left-1 size-5 bg-[url('/images/arrow.svg')] bg-no-repeat bg-center" />
                     </dt>{' '}
@@ -32,7 +32,7 @@ export default function JumboCard({ heading, subheading, description, items, ima
               </dl>
             </div>
           </div>
-          <img
+          <Image
             alt={subheading}
             src={image}
             width={2432}

@@ -3,7 +3,6 @@ import Container from "@/components/Container";
 import Cta from "@/components/Cta";
 import Heading from "@/components/Heading";
 import JumboCard from "@/components/JumboCard";
-import Services from "@/components/Services";
 import TwoColumnLayout from "@/components/TwoColumnLayout";
 
 export default function ServicesPage() {
@@ -22,7 +21,7 @@ export default function ServicesPage() {
           }
           childrenRightCol={
             <>
-              <p className="text-lg/8 text-gray-900">Delivering clean, robust, and scalable digital solutions tailored to meet business goals, timelines, and budgets. Each service is crafted to ensure maximum performance, seamless user experiences, and long-term maintainability. Whether it's development, upgrades, or support—every project is approached with a focus on results, efficiency, and precision.</p>
+              <p className="text-lg/8 text-gray-900">Delivering clean, robust, and scalable digital solutions tailored to meet business goals, timelines, and budgets. Each service is crafted to ensure maximum performance, seamless user experiences, and long-term maintainability. Whether it&apos;s development, upgrades, or support—every project is approached with a focus on results, efficiency, and precision.</p>
             </>
           }
         />
